@@ -1,1 +1,1 @@
-# VR-TemplyStay
+# VR-TempleStay
