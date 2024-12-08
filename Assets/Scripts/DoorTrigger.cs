@@ -7,7 +7,7 @@ public class DoorTrigger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Something entered the trigger: " + other.name);
-        if (other.CompareTag("Player")) // 플레이어가 범위에 들어오면
+        if (other.CompareTag("MainCamera")) // 플레이어가 범위에 들어오면
         {
             Debug.Log("Player entered trigger area.");
             doorAnimator.SetTrigger("Open");
@@ -16,7 +16,7 @@ public class DoorTrigger : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) // 플레이어가 범위를 나가면
+        if (other.CompareTag("MainCamera")) // 플레이어가 범위를 나가면
         {
             Debug.Log("Player exited trigger area.");
             doorAnimator.SetTrigger("Close"); // Close 애니메이션 실행
