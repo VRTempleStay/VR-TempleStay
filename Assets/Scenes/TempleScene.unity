@@ -7831,15 +7831,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204260975}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 576.29}
-  m_LocalScale: {x: 0.003, y: 0.003, z: 0.003}
+  m_LocalPosition: {x: 0, y: 0, z: 574.86}
+  m_LocalScale: {x: 0.0011401459, y: 0.0011401459, z: 0.0011401459}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -400.43, y: -29.85}
+  m_AnchoredPosition: {x: -404.21, y: -28.59}
   m_SizeDelta: {x: 1341, y: 308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &204653921
@@ -56911,10 +56911,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3929225641008540731, guid: 2464b55014c3d0a4ca8ed99250557220, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2031387601}
+    - targetCorrespondingSourceObject: {fileID: 3929225641008540731, guid: 2464b55014c3d0a4ca8ed99250557220, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2031387602}
     - targetCorrespondingSourceObject: {fileID: 3929225641008540731, guid: 2464b55014c3d0a4ca8ed99250557220, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2031387601}
+      addedObject: {fileID: 2031387603}
   m_SourcePrefab: {fileID: 100100000, guid: 2464b55014c3d0a4ca8ed99250557220, type: 3}
 --- !u!4 &1454767458 stripped
 Transform:
@@ -77968,7 +77971,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 40, z: 40}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2031387602
+--- !u!95 &2031387602
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031387598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a9606626d4573ff49a51f80db9e16d4a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2031387603
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77977,11 +78001,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031387598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 096fe523957d1b44bb5754e612a65b03, type: 3}
+  m_Script: {fileID: 11500000, guid: cc4785ec87f02274eb0d7fab011e4bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: e42270a11c28f4744b73a18278e4ef33, type: 2}
-  defaultMaterial: {fileID: 0}
+  doorAnimator: {fileID: 2031387602}
 --- !u!1001 &2032092879
 PrefabInstance:
   m_ObjectHideFlags: 0
