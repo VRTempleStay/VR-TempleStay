@@ -12,7 +12,7 @@ public class meditation : MonoBehaviour
     private float elapsedTime = 0.0f;
     private AsyncOperation asyncLoad;
     [SerializeField]
-    private string SceneName;
+    private string SceneName ="";
     // Start is called before the first frame update
     void Start()
     {

@@ -66,7 +66,7 @@ public class MyScreenFade : MonoBehaviour
     /// <summary>
     /// Automatically starts a fade in
     /// </summary>
-    void Start()
+    void Awake()
     {
         if (gameObject.name.StartsWith("OculusMRC_"))
         {
@@ -75,7 +75,7 @@ public class MyScreenFade : MonoBehaviour
         }
 
         // create the fade material
-        fadeMaterial = new Material(Shader.Find("Oculus/UnlitTransparentColor"));
+        fadeMaterial = new Material(Shader.Find("Oculus/Unlit Transparent Color"));
         fadeMesh = gameObject.AddComponent<MeshFilter>();
         fadeRenderer = gameObject.AddComponent<MeshRenderer>();
 
