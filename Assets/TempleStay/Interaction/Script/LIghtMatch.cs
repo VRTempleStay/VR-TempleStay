@@ -10,12 +10,12 @@ public class LIghtMatch : MonoBehaviour
 
     [Header("Match")]
     [Tooltip ("성냥 타는시간")]
-    public float matchDuration = 20.0f;
+    public float matchDuration = 30.0f;
     [SerializeField]
     private float duration = 0.0f;
 
     [Tooltip("성냥에 불이 붙기 위한 최소속력")]
-    public float lightThreshold = 0.1f; 
+    public float lightThreshold = 0.5f; 
 
     [Space (10f)]
 
@@ -27,6 +27,12 @@ public class LIghtMatch : MonoBehaviour
     public float successRate = 0.7f;
     private float currentSuccessRate;
 
+    [SerializeField]
+    private AudioSource lighterSound;
+
+    [SerializeField]
+    private ParticleSystem fireParticle;
+   
     private Rigidbody rb;
     private MeshRenderer mr;
 
@@ -34,6 +40,7 @@ public class LIghtMatch : MonoBehaviour
     {
         rb = GetComponentInParent<Rigidbody>();
         mr = GetComponent<MeshRenderer>();
+        lighterSound =GetComponent<AudioSource>();
         currentSuccessRate = successRate;
         mr.material = lightOffMat;
         
@@ -55,8 +62,10 @@ public class LIghtMatch : MonoBehaviour
         if (other.CompareTag("MatchCase"))
         {
 
+            Debug.Log("Vel is " + rb.velocity.magnitude);
             if (rb.velocity.magnitude >= lightThreshold)
             {
+                lighterSound.Play();
 
                 float rate = Random.value;
                 if (rate >= 1 - currentSuccessRate)
@@ -80,6 +89,8 @@ public class LIghtMatch : MonoBehaviour
         IsLightOn = true;
         mr.material = lightOnMat;
         duration = matchDuration;
+        fireParticle.Play();
+
         Debug.Log("LightOn");
     }
 

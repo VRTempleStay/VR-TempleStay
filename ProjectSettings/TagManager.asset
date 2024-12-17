@@ -7,6 +7,8 @@ TagManager:
   - MatchCase
   - Match
   - IncenseStick
+  - Anchor
+  - HMDHead
   layers:
   - Default
   - TransparentFX

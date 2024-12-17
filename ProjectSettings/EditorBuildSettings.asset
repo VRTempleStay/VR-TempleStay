@@ -9,11 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/TempleScene.unity
     guid: 1f61d5217e157d04b9fb50a54da6cd88
   - enabled: 1
     path: Assets/Scenes/MeditationScene.unity
     guid: 29fd2362e5c50eb428089c708257ccde
+=======
+    path: Assets/TempleStay/Interaction/Scene/1st_interaction_test.unity
+    guid: cc1157297ff45614093be6a0039677bd
+>>>>>>> Stashed changes
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
