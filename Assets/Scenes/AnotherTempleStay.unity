@@ -8503,8 +8503,12 @@ PrefabInstance:
       value: SM_057_Brick
       objectReference: {fileID: 0}
     - target: {fileID: 6928912392762366548, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
+      propertyPath: waitTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6928912392762366548, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: SceneName
-      value: SampleScene
+      value: MeditationScene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
