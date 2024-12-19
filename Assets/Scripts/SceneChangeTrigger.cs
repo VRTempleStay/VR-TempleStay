@@ -1,56 +1,49 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneChangeTrigger : MonoBehaviour
 {
-    public string targetSceneName; // 전환할 씬의 이름
-    public float waitTime = 3f;    // 대기 시간 (초)
+    public string targetSceneName;
+    public float waitTime = 3f;
 
-    private float timer = 0f;
     private bool isPlayerInside = false;
+    private Coroutine waitCoroutine;
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Something entered the trigger: " + other.name);
-        if (other.CompareTag("MainCamera")) // 플레이어가 범위에 들어오면
+        if (other.CompareTag("MainCamera"))
         {
-            Debug.Log("Player entered trigger area.");
+            Debug.Log("Player entered 방석 area.");
             isPlayerInside = true;
-            timer = 0f; // 타이머 초기화
+            if (waitCoroutine == null)
+            {
+                waitCoroutine = StartCoroutine(WaitAndLoadScene());
+            }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("MainCamera")) // 플레이어가 범위를 나가면
+        if (other.CompareTag("MainCamera"))
         {
-            Debug.Log("Player exited trigger area.");
+            Debug.Log("Player exited 방석 area.");
             isPlayerInside = false;
-            timer = 0f; // 타이머 리셋
-        }
-    }
-
-    void Update()
-    {
-        if (isPlayerInside)
-        {
-            timer += Time.deltaTime;
-            if (timer >= waitTime)
+            if (waitCoroutine != null)
             {
-                Debug.Log("Player has been inside the trigger for " + waitTime + " seconds. Changing scene to " + targetSceneName);
-                SceneManager.LoadScene(targetSceneName);
+                StopCoroutine(waitCoroutine);
+                waitCoroutine = null;
             }
         }
     }
 
-    void OnDrawGizmos()
+    IEnumerator WaitAndLoadScene()
     {
-        // Trigger Collider를 시각화
-        Gizmos.color = Color.green;
-        BoxCollider collider = GetComponent<BoxCollider>();
-        if (collider != null)
+        yield return new WaitForSeconds(waitTime);
+        if (isPlayerInside) // 마지막으로 확인
         {
-            Gizmos.DrawWireCube(transform.position + collider.center, collider.size);
+            Debug.Log("Changing scene to " + targetSceneName);
+            SceneManager.LoadScene(targetSceneName);
         }
     }
 }
