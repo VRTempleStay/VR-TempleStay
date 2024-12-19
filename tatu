@@ -1,0 +1,172 @@
+[33mcommit 411f5701639b616fefe8e727a7fa985166c2c84b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msoundeffects[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32minteraction[m[33m)[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Tue Dec 17 21:00:57 2024 +0900
+
+    태그수정
+
+[33mcommit f9c114ff357d4ecec31edad2c4d7508f9677f9f9[m
+Merge: 13811b9 7e2c595
+Author: twowhitecats <89092234+twowhitecats@users.noreply.github.com>
+Date:   Tue Dec 17 20:26:18 2024 +0900
+
+    Merge pull request #5 from VRTempleStay/interaction
+    
+    Interaction
+
+[33mcommit 7e2c595727c4f238931d8b7036942de63cbb0273[m
+Author: Yoon Jaegyeong <endercraft09@naver.com>
+Date:   Tue Dec 17 20:25:17 2024 +0900
+
+    bgm added, fade effect fixed
+
+[33mcommit dc08e16196d648983e1c68f3931e4d136c57eba2[m
+Author: Yoon Jaegyeong <endercraft09@naver.com>
+Date:   Tue Dec 17 19:32:20 2024 +0900
+
+    match fire effect added, meditaion starting logic added
+
+[33mcommit a1b66887e0259f8c731fb3c88c17f46df25b4f4a[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Tue Dec 17 19:02:56 2024 +0900
+
+    배경음
+
+[33mcommit 14b6bfd79d4a2ba89bd43e038f70a75bbdec3971[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Tue Dec 17 18:48:11 2024 +0900
+
+    방석 반응
+
+[33mcommit 45ae8667a90d9e3a777ff490844ca63c7a72a0a9[m[33m ([m[1;31morigin/interaction[m[33m)[m
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Tue Dec 17 06:52:22 2024 +0900
+
+    Feat: Wind Animation added
+
+[33mcommit 799acc02961fa40d4c3f04f1c893a41edc7415c1[m
+Merge: e318b3f 7452490
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Tue Dec 17 03:22:33 2024 +0900
+
+    Merge branch 'interaction' of https://github.com/VRTempleStay/VR-TempleStay into interaction
+
+[33mcommit e318b3fdd66d1f7f860f5bd6e93e5531d69ce015[m
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Tue Dec 17 03:21:50 2024 +0900
+
+    Feat: 창문 가까이 가면 창문 열리게 구현
+
+[33mcommit 7452490dfdf82c497f9d846f6d986f0d212e3280[m
+Author: Yoon Jaegyeong <endercraft09@naver.com>
+Date:   Fri Dec 13 04:47:31 2024 +0900
+
+    1st interaction
+
+[33mcommit fcc5a2e51281760c918fff93e3f6076653c08686[m
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Sun Dec 8 19:18:43 2024 +0900
+
+    Feat: window opening interaction setup
+
+[33mcommit 1ffc098bc5c650d282f714549d22f2c6ecdfcba8[m
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Sun Dec 8 18:39:03 2024 +0900
+
+    Feat: trigger door to open / close
+
+[33mcommit e9ffd5e0787974d92b03bfe817654102ad1b2781[m
+Author: Woo Eunjin <esther0904@naver.com>
+Date:   Fri Dec 6 10:16:11 2024 +0900
+
+    Feat: add animation
+
+[33mcommit 13811b96dc1d6e22046d6d3a8730fa8d62f24fa1[m[33m ([m[1;31morigin/settings[m[33m)[m
+Author: zerossin <150813710+zerossin@users.noreply.github.com>
+Date:   Mon Nov 25 23:46:38 2024 +0900
+
+    Update README.md
+
+[33mcommit 624c2c4b15aba4f28ca169b2ed67f6b2a4d94b3e[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Mon Nov 25 23:38:21 2024 +0900
+
+    배치 수정
+
+[33mcommit 9bb84473859d47d7a2b0543a782cfce066665932[m
+Author: zerossin <150813710+zerossin@users.noreply.github.com>
+Date:   Mon Nov 25 07:09:26 2024 +0900
+
+    Update README.md
+
+[33mcommit 01d71f5625cca2b95e7769180994b98f524106be[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Mon Nov 25 06:53:05 2024 +0900
+
+    설정
+
+[33mcommit 3ff50008761b9551f58a66b25bc0aa53da718946[m
+Merge: 88758a7 624bcf2
+Author: zerossin <150813710+zerossin@users.noreply.github.com>
+Date:   Mon Nov 25 06:22:42 2024 +0900
+
+    Merge pull request #2 from VRTempleStay/develop
+    
+    대략적 배치
+
+[33mcommit 624bcf26f9b0a1c1e55f4dd32a39407bc2453c21[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: zerossin <koreaminsoo@naver.com>
+Date:   Mon Nov 25 06:21:12 2024 +0900
+
+    대략적 배치
+
+[33mcommit 88758a754c8f26dee2de9d478803030e849f6bca[m
+Merge: a4172df 97e6fc9
+Author: twowhitecats <89092234+twowhitecats@users.noreply.github.com>
+Date:   Fri Nov 22 16:12:22 2024 +0900
+
+    Merge pull request #1 from VRTempleStay/settings
+    
+    프로젝트 세팅, 빌드 세팅
+
+[33mcommit 97e6fc9f410656dc9637dab400fea6757a2b63c3[m
+Author: twowhitecats <89092234+twowhitecats@users.noreply.github.com>
+Date:   Fri Nov 22 10:08:18 2024 +0900
+
+    프로젝트 세팅, 빌드 세팅
+
+[33mcommit a4172df756f4bb37045a5b1a9420e8a6d04be5bb[m
+Merge: b3c3f2b 9ec40b1
+Author: EunjinWoo <esther0904@naver.com>
+Date:   Fri Oct 25 15:18:47 2024 +0900
+
+    Fix: resolve conflict
+
+[33mcommit b3c3f2b0e5a7ff0326d4653048d519aabb351bdc[m
+Author: EunjinWoo <esther0904@naver.com>
+Date:   Fri Oct 25 15:13:03 2024 +0900
+
+    init project
+
+[33mcommit 9ec40b13f77401259e6a2ba2da8b748701b2c63d[m
+Author: Mints <150813710+mintsclover@users.noreply.github.com>
+Date:   Fri Oct 25 14:58:04 2024 +0900
+
+    Create .gitignore
+
+[33mcommit 052deb364346aaca4d96a37ffad5c930c37857c2[m
+Author: Mints <150813710+mintsclover@users.noreply.github.com>
+Date:   Fri Oct 25 14:56:29 2024 +0900
+
+    Update README.md
+
+[33mcommit 331ca106c82872e31fee149476a8e65a0c3ace4f[m
+Author: esther <92513850+EunjinWoo@users.noreply.github.com>
+Date:   Fri Oct 25 14:56:10 2024 +0900
+
+    Update README.md
+
+[33mcommit 4e1abfc75c09f8a0d534a1dbf82669aa0b478045[m
+Author: Mints <150813710+mintsclover@users.noreply.github.com>
+Date:   Fri Oct 25 14:55:25 2024 +0900
+
+    Create README.md

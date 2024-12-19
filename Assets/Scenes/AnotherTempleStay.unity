@@ -4988,6 +4988,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7192818547691322728, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 533089869}
+    - targetCorrespondingSourceObject: {fileID: 7192818547691322728, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 533089872}
+    - targetCorrespondingSourceObject: {fileID: 7192818547691322728, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 533089875}
     - targetCorrespondingSourceObject: {fileID: 7192818547691322730, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 533089868}
@@ -5313,6 +5319,56 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!136 &533089872
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533089865}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &533089875
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533089865}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1001 &534690536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19160,7 +19216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1780205295
 AudioListener:
   m_ObjectHideFlags: 0
@@ -19179,7 +19235,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
