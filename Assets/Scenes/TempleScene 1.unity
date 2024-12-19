@@ -78271,8 +78271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 096fe523957d1b44bb5754e612a65b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: e42270a11c28f4744b73a18278e4ef33, type: 2}
-  defaultMaterial: {fileID: 0}
 --- !u!1001 &2032092879
 PrefabInstance:
   m_ObjectHideFlags: 0
