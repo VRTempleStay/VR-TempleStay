@@ -40,6 +40,8 @@ public class meditation : MonoBehaviour
             if (elapsedTime >= 0.0f && asyncLoad == null)
             {
                 asyncLoad = SceneManager.LoadSceneAsync(SceneName);
+                asyncLoad.allowSceneActivation = false;
+
             }
             elapsedTime += Time.deltaTime;
             

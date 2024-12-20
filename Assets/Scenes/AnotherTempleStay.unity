@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: ec46d2188d4b8774e847e75f1e12a8db, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -96,8 +96,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b5aae4c45eef46440ae2300e2ca129b9, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 9139591984e622c47b93c50f9fa5d059, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -251,6 +251,10 @@ PrefabInstance:
     - target: {fileID: 9143153289700551230, guid: 6060f486b1d757e499db963c05f3707a, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Roof_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 9143153289700551230, guid: 6060f486b1d757e499db963c05f3707a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -432,7 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.173
+      value: -3.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.y
@@ -440,7 +444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.429
+      value: -2.85
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalRotation.w
@@ -495,6 +499,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -627,6 +635,10 @@ PrefabInstance:
     - target: {fileID: 6073780680959391318, guid: d49f390e86534ef49872f1633530b98c, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_F
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073780680959391318, guid: d49f390e86534ef49872f1633530b98c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8462426044942618187, guid: d49f390e86534ef49872f1633530b98c, type: 3}
       propertyPath: m_RootOrder
@@ -851,68 +863,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1033158889071140809, guid: df8c46ce6187fa8438004f68e3e12e1d, type: 3}
   m_PrefabInstance: {fileID: 84998162}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &89407227
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.632769
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6990242
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 38.1694
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5223025911911448563, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_I
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
---- !u!4 &89407228 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1334611875433743150, guid: efb362b2de4c4b148ba2e6dc1b1ead3f, type: 3}
-  m_PrefabInstance: {fileID: 89407227}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &100766595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -968,6 +918,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1132,6 +1086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1274,6 +1232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_B
       objectReference: {fileID: 0}
+    - target: {fileID: 743156290102891678, guid: fe3978e10ec1f284591d34f6deab8f2d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1389,6 +1351,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 533089858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &171490108
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1420755129}
+    m_Modifications:
+    - target: {fileID: 5797428246745224015, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_Name
+      value: msVFX_Stylized Smoke 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.307
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: startDelay.maxCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958478975733516079, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+      propertyPath: startDelay.maxCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
 --- !u!1001 &172382335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1521,6 +1580,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1876,6 +1939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1885,68 +1952,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1082282677267463846, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
   m_PrefabInstance: {fileID: 234184375}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &258934621
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.9111166
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.735794
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.826996
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7415750418565060662, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_Q (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
---- !u!4 &258934622 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-  m_PrefabInstance: {fileID: 258934621}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &262036582
 PrefabInstance:
@@ -2286,6 +2291,10 @@ PrefabInstance:
     - target: {fileID: 594885504077691864, guid: c21f0024846405341b6936c362a7fc42, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_H (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 594885504077691864, guid: c21f0024846405341b6936c362a7fc42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4426813161209850511, guid: c21f0024846405341b6936c362a7fc42, type: 3}
       propertyPath: m_RootOrder
@@ -2715,6 +2724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3065,6 +3078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -3215,7 +3232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5748295225093553736, guid: b0a6d194760accb4588426a785a4cc7c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.470001
+      value: -4.44
       objectReference: {fileID: 0}
     - target: {fileID: 5748295225093553736, guid: b0a6d194760accb4588426a785a4cc7c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3390,7 +3407,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3503,6 +3520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Pillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5673012926439261487, guid: fd416b1a3af4b7e4386e6387291a5122, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3568,6 +3589,10 @@ PrefabInstance:
     - target: {fileID: 7959948368607766510, guid: a9e6c58b35a772a4f80fb8483bcb155a, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959948368607766510, guid: a9e6c58b35a772a4f80fb8483bcb155a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3825,68 +3850,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &396112496
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1335365955}
-    m_Modifications:
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12.006126
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.527121
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 31.553097
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00000008146034
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2225365968036346339, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-      propertyPath: m_Name
-      value: SM_Sun_Bul_Stone_J
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
---- !u!4 &396112497 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1818154143498960732, guid: 5707c43ba39246244a577f77692bbd12, type: 3}
-  m_PrefabInstance: {fileID: 396112496}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &396248034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4194,6 +4157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4290,6 +4257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_C
       objectReference: {fileID: 0}
+    - target: {fileID: 2130279383029276401, guid: f981d507929eaf64793fa27e8c8e816e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8737129190515307324, guid: f981d507929eaf64793fa27e8c8e816e, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -4355,6 +4326,10 @@ PrefabInstance:
     - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6245691589467307490, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_RootOrder
@@ -4466,6 +4441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Sign_A
       objectReference: {fileID: 0}
+    - target: {fileID: 4936660089870117031, guid: 96309d4d5f4245c468f26bc6d58f941e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4531,6 +4510,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4704,7 +4687,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &452729920
 Transform:
@@ -4867,15 +4850,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2816571144397743340, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -397.9358
+      value: -397.284
       objectReference: {fileID: 0}
     - target: {fileID: 2816571144397743340, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -31.6399
+      value: -31.2
       objectReference: {fileID: 0}
     - target: {fileID: 2816571144397743340, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 577.3173
+      value: 571.5695
       objectReference: {fileID: 0}
     - target: {fileID: 2816571144397743340, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4903,6 +4886,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2816571144397743340, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560469208266192836, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
+      propertyPath: _useClosestPointAsGrabSource
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3861933711237443829, guid: 6c1d90920f8808142ae73c7ed8bc1638, type: 3}
@@ -5000,13 +4987,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_SC_Seonamsa_East_Stupa
       objectReference: {fileID: 0}
+    - target: {fileID: 1261083715060322914, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1930799977622341848, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.55
       objectReference: {fileID: 0}
     - target: {fileID: 1930799977622341848, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.999
+      value: -9.09
       objectReference: {fileID: 0}
     - target: {fileID: 1930799977622341848, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5106,6 +5097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_G
       objectReference: {fileID: 0}
+    - target: {fileID: 7491670159295102712, guid: 1418406289efef643b6d1542e4f91bfe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5127,6 +5122,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -5192,7 +5191,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -396.0875
+      value: -397.566
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5200,7 +5199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 578.896
+      value: 572.337
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5236,8 +5235,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1951014354}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1420755131}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1420755130}
   m_SourcePrefab: {fileID: 100100000, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
 --- !u!1001 &533089844
 PrefabInstance:
@@ -5269,19 +5277,19 @@ PrefabInstance:
       objectReference: {fileID: 1821778591}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -400.94
+      value: -397.516
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.82
+      value: -31.148
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 562.6
+      value: 569.238
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5289,7 +5297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5301,7 +5309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -5331,6 +5339,22 @@ PrefabInstance:
       propertyPath: _hmd
       value: 
       objectReference: {fileID: 533089848}
+    - target: {fileID: 7192818547680544906, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      propertyPath: AllowRecenter
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192818547680544906, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      propertyPath: resetTrackerOnLoad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192818547680544906, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      propertyPath: _trackingOriginType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192818547680544906, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
+      propertyPath: SimultaneousHandsAndControllersEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7192818547689909906, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_BackGroundColor.a
       value: 1
@@ -5349,23 +5373,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7192818547691413838, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.17645264
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7192818547691413838, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -7.828605e-15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7192818547691413838, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9843092
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7192818547691413838, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.5457284e-14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7192818547691413838, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -159.674
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8063704534594007443, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: _interactors.Array.size
@@ -5764,14 +5788,14 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
-  m_Height: 5
+  m_Height: 3.8850842
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.5574579, z: 0}
 --- !u!54 &533089875
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5999,6 +6023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_E
       objectReference: {fileID: 0}
+    - target: {fileID: 7250768661382429447, guid: eacc8d0e6db922543814729a47e76af1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6064,6 +6092,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6171,6 +6203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_F (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1887760544212571506, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -6225,68 +6261,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1887760544212571506, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
   m_PrefabInstance: {fileID: 561199751}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &577777640
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.7460003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7720003
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 36.562
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6877103
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.6877103
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.16448288
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.16448283
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -26.902
-      objectReference: {fileID: 0}
-    - target: {fileID: 5672602906495617040, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_C
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
---- !u!4 &577777641 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-  m_PrefabInstance: {fileID: 577777640}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &578949351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6333,6 +6307,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -6525,6 +6503,10 @@ PrefabInstance:
     - target: {fileID: 5312741663517434811, guid: 3b85058e1f9386c48a344fe30bcd3f54, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312741663517434811, guid: 3b85058e1f9386c48a344fe30bcd3f54, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6860,6 +6842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6934,6 +6920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6969,7 +6959,7 @@ Transform:
   m_GameObject: {fileID: 652271035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -59.627197, y: -78.50302, z: 177.7016}
+  m_LocalPosition: {x: -61.098, y: -78.50302, z: 177.7016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7105,6 +7095,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7071596832555935778, guid: 30a27bcab31a0274883dee84f55ea736, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7595474113535570584, guid: 30a27bcab31a0274883dee84f55ea736, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7176,6 +7170,10 @@ PrefabInstance:
     - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6245691589467307490, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_RootOrder
@@ -7294,6 +7292,10 @@ PrefabInstance:
     - target: {fileID: 5622997123057591990, guid: 2656101f375b51a4fbdbbcfc9de2e5a0, type: 3}
       propertyPath: m_Name
       value: SM_SC_East_Three_Stone_Pagoda
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622997123057591990, guid: 2656101f375b51a4fbdbbcfc9de2e5a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7468,6 +7470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 5673012926439261487, guid: fd416b1a3af4b7e4386e6387291a5122, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7533,6 +7539,10 @@ PrefabInstance:
     - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7686,6 +7696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Dori_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4049153187498789750, guid: 14692d9684e9117458ec041ed7b5b010, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7791,6 +7805,10 @@ PrefabInstance:
     - target: {fileID: 1682649326412347442, guid: e3e6ba4cb06674348b00cca8a7e579db, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Sign_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682649326412347442, guid: e3e6ba4cb06674348b00cca8a7e579db, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2461587690705720003, guid: e3e6ba4cb06674348b00cca8a7e579db, type: 3}
       propertyPath: m_RootOrder
@@ -8067,6 +8085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8132,6 +8154,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8208,68 +8234,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 615194277040217014, guid: f00c7892a94964440bdceaa416807712, type: 3}
   m_PrefabInstance: {fileID: 770741135}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &780084033
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 2800420733387014688, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_G
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.19673443
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7217941
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 37.910076
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
---- !u!4 &780084034 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4978568148479562625, guid: df7dec9bfe0f066489cae81c293ee08e, type: 3}
-  m_PrefabInstance: {fileID: 780084033}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &782218442
 PrefabInstance:
@@ -8948,6 +8912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -9014,6 +8982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_H
       objectReference: {fileID: 0}
+    - target: {fileID: 594885504077691864, guid: c21f0024846405341b6936c362a7fc42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4426813161209850511, guid: c21f0024846405341b6936c362a7fc42, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -9076,9 +9048,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1346583617}
     m_Modifications:
+    - target: {fileID: 392068596562053866, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3495549
+      objectReference: {fileID: 0}
+    - target: {fileID: 392068596562053866, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
+      propertyPath: m_Center.y
+      value: 0.16977745
+      objectReference: {fileID: 0}
     - target: {fileID: 1265321811816223752, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07498169
+      value: -1.3720093
       objectReference: {fileID: 0}
     - target: {fileID: 1265321811816223752, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9086,7 +9066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1265321811816223752, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.429016
+      value: -2.85
       objectReference: {fileID: 0}
     - target: {fileID: 1265321811816223752, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9130,9 +9110,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6928912392762366548, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6928912392762366548, guid: 25a09b97830b9964695536e30231bdb1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -9174,7 +9155,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -404.7, y: -28.86, z: 560.16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 1, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2048488343}
@@ -9339,6 +9320,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9576,6 +9561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9745,6 +9734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step
       objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9806,6 +9799,10 @@ PrefabInstance:
     - target: {fileID: 4358624852370914529, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
       propertyPath: m_Name
       value: SM_SC_Seonamsa_Daegagam_Stupa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4358624852370914529, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9972,6 +9969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10037,6 +10038,10 @@ PrefabInstance:
     - target: {fileID: 9047773712683584179, guid: fc4782740e17022408f8e39bff9b362a, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047773712683584179, guid: fc4782740e17022408f8e39bff9b362a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10104,6 +10109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_E
       objectReference: {fileID: 0}
+    - target: {fileID: 8916170823618299130, guid: df62f0c40352713469d1ef6795204fce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10169,6 +10178,10 @@ PrefabInstance:
     - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10276,7 +10289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0780029
+      value: -2.524994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10284,7 +10297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.429016
+      value: -2.86
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10350,7 +10363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6099854
+      value: 1.1629944
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10358,7 +10371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.429016
+      value: -2.856
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10401,68 +10414,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
   m_PrefabInstance: {fileID: 922689458}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &922996228
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.25091648
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7311964
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 36.059006
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7415750418565060662, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_Q
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
---- !u!4 &922996229 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6268034847541906149, guid: d3f72ae61adbecb4aa14785bea56fead, type: 3}
-  m_PrefabInstance: {fileID: 922996228}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &931165585
 PrefabInstance:
@@ -10799,6 +10750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6245691589467307490, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10908,6 +10863,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11049,6 +11008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11112,7 +11075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3309937
+      value: -0.115997314
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11120,7 +11083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.429016
+      value: -2.842
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f37d73fbcfb10984b9a98c011116c873, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11257,6 +11220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11322,6 +11289,10 @@ PrefabInstance:
     - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11389,6 +11360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11455,6 +11430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11520,6 +11499,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11685,68 +11668,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 663695855}
   m_SourcePrefab: {fileID: 100100000, guid: f86ce41fbd08aea45825cb71cc33281c, type: 3}
---- !u!1001 &1009060866
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1335365955}
-    m_Modifications:
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.400858
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -8.579054
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 31.267166
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00000008146034
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5197849028832361634, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-      propertyPath: m_Name
-      value: SM_Sun_Bul_Stone_K
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
---- !u!4 &1009060867 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3693619010964009233, guid: 8afccf92b52dde5489afe54940aeb7ca, type: 3}
-  m_PrefabInstance: {fileID: 1009060866}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1012793030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11905,68 +11826,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025236115}
   m_Mesh: {fileID: -6360558719573625917, guid: f97770dcb5d43b546a6381fb760bb2e3, type: 3}
---- !u!1001 &1031359509
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1351683283216046996, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_B
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.187
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7076216
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.65811
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
---- !u!4 &1031359510 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-  m_PrefabInstance: {fileID: 1031359509}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1032378629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12096,6 +11955,10 @@ PrefabInstance:
     - target: {fileID: 4404863704090369044, guid: b769c013ba2a6fa4a94412e843b17df8, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404863704090369044, guid: b769c013ba2a6fa4a94412e843b17df8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12321,6 +12184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12387,6 +12254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7959948368607766510, guid: a9e6c58b35a772a4f80fb8483bcb155a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12396,130 +12267,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1245697714662929847, guid: a9e6c58b35a772a4f80fb8483bcb155a, type: 3}
   m_PrefabInstance: {fileID: 1077469720}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1079166653
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 131674657217944763, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_H
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.3560877
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7659998
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 35.562
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.65859455
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.65859455
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.25739706
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.257397
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 42.694
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
---- !u!4 &1079166654 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3509404212076664426, guid: b58b9a6bdcada3c4da5d036c6d62a8ba, type: 3}
-  m_PrefabInstance: {fileID: 1079166653}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1084318294
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.791
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.713
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 35.621
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8812848198902726905, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_L
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
---- !u!4 &1084318295 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-  m_PrefabInstance: {fileID: 1084318294}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1087810290
 PrefabInstance:
@@ -12576,6 +12323,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12643,6 +12394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12709,6 +12464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12719,54 +12478,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5763007579161465160, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
   m_PrefabInstance: {fileID: 1096440515}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1103315092
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1103315093}
-  m_Layer: 0
-  m_Name: Lake
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1103315093
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103315092}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8857088, y: -4.8351555, z: -0.043525696}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1779714260}
-  - {fileID: 577777641}
-  - {fileID: 1770537822}
-  - {fileID: 1079166654}
-  - {fileID: 1691721531}
-  - {fileID: 1084318295}
-  - {fileID: 922996229}
-  - {fileID: 89407228}
-  - {fileID: 1924844894}
-  - {fileID: 258934622}
-  - {fileID: 1783301585}
-  - {fileID: 1031359510}
-  - {fileID: 2100298527}
-  - {fileID: 1764859403}
-  - {fileID: 780084034}
-  - {fileID: 1933994469}
-  - {fileID: 1442332088}
-  m_Father: {fileID: 1335365955}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1104600109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12907,6 +12618,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1033158889071140809, guid: df8c46ce6187fa8438004f68e3e12e1d, type: 3}
   m_PrefabInstance: {fileID: 1106951705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1107145252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107145256}
+  - component: {fileID: 1107145255}
+  - component: {fileID: 1107145254}
+  - component: {fileID: 1107145253}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1107145253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107145252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1107145254
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107145252}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5ad08ce23f1f5054da4dfab079f3979b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1107145255
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107145252}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1107145256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107145252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -391.32227, y: -32.36, z: 554.4681}
+  m_LocalScale: {x: 5, y: 1, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1108942368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13194,6 +13011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -13259,6 +13080,10 @@ PrefabInstance:
     - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_F (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1887760544212571506, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_RootOrder
@@ -13440,6 +13265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Pal_ex
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17bf0bfbd8061bd4a9915c1719b619c3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13583,6 +13412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Bang
       objectReference: {fileID: 0}
+    - target: {fileID: 7505405407620046189, guid: 1db837317377f8c419ae2b7030f74de0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13635,6 +13468,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -14202,6 +14039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9047773712683584179, guid: fc4782740e17022408f8e39bff9b362a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14223,6 +14064,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -14341,6 +14186,10 @@ PrefabInstance:
     - target: {fileID: 3359023877291494120, guid: e6c514bef75182c40b0b828053691e16, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Roof_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359023877291494120, guid: e6c514bef75182c40b0b828053691e16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14467,6 +14316,10 @@ PrefabInstance:
     - target: {fileID: 7509214376552327491, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509214376552327491, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7685039000581766935, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
       propertyPath: m_RootOrder
@@ -14603,6 +14456,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14744,6 +14601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_A
       objectReference: {fileID: 0}
+    - target: {fileID: 4134080214575320848, guid: ebd7982f6c00d124f9cadf5065219a99, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14765,6 +14626,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -14834,15 +14699,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8706191463380299611, guid: 5cdf7bcb01eaf444c803ee74db1290e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -398.134
+      value: -397.902
       objectReference: {fileID: 0}
     - target: {fileID: 8706191463380299611, guid: 5cdf7bcb01eaf444c803ee74db1290e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -31.852
+      value: -31.162
       objectReference: {fileID: 0}
     - target: {fileID: 8706191463380299611, guid: 5cdf7bcb01eaf444c803ee74db1290e8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 577.339
+      value: 571.644
       objectReference: {fileID: 0}
     - target: {fileID: 8706191463380299611, guid: 5cdf7bcb01eaf444c803ee74db1290e8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14933,6 +14798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14957,7 +14826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1335365955
 Transform:
@@ -14977,9 +14846,6 @@ Transform:
   - {fileID: 1761317387}
   - {fileID: 2091566210}
   - {fileID: 875581445}
-  - {fileID: 396112497}
-  - {fileID: 1009060867}
-  - {fileID: 1103315093}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1001 &1343653528
@@ -15256,9 +15122,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b210047664470f64bb38f1402221cf24, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.359
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15349,7 +15215,7 @@ Transform:
   m_GameObject: {fileID: 1346583615}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -396.12573, y: -30.077698, z: 580.04}
+  m_LocalPosition: {x: -396.12573, y: -30.077698, z: 573.475}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15494,6 +15360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15559,6 +15429,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15722,6 +15596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Hyeonpan
       objectReference: {fileID: 0}
+    - target: {fileID: 548353109166320944, guid: 5369eaebb189d5f40b5c04ff292be65d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7213019679064866961, guid: 5369eaebb189d5f40b5c04ff292be65d, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -15820,7 +15698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbcd00f31a916b44cbda8e6f6717981a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 5
+  waitTime: 10
   SceneName: MeditationScene
 --- !u!1001 &1385097921
 PrefabInstance:
@@ -16026,6 +15904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16113,6 +15995,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -16298,6 +16184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16364,6 +16254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16374,6 +16268,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3010499005914528078, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
   m_PrefabInstance: {fileID: 1420679686}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1420755128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
+  m_PrefabInstance: {fileID: 532384494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1420755129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7b141a3b17aebd142890bccbe80de560, type: 3}
+  m_PrefabInstance: {fileID: 532384494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1420755130
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420755128}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1, y: 0.5, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1420755131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420755128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864a7829b5e481c4fae395ce14cf56e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 4
+  IsIncenseOn: 0
+  smoke: {fileID: 0}
 --- !u!1 &1435579218
 GameObject:
   m_ObjectHideFlags: 0
@@ -16436,7 +16376,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435579218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 0
@@ -16535,6 +16475,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16686,68 +16630,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 560536730175809930, guid: de5ed214e9e5df9459ff8799e77dff66, type: 3}
   m_PrefabInstance: {fileID: 1442199584}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1442332087
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.11061764
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7132254
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 36.63938
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8812848198902726905, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_L
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
---- !u!4 &1442332088 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4939724154935697048, guid: 2ab5e46c10e0a834d939e3221d31775f, type: 3}
-  m_PrefabInstance: {fileID: 1442332087}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1445064835
 GameObject:
   m_ObjectHideFlags: 0
@@ -16762,7 +16644,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1445064836
 Transform:
@@ -17069,6 +16951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17090,6 +16976,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -17209,6 +17099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Dori_A
       objectReference: {fileID: 0}
+    - target: {fileID: 4049153187498789750, guid: 14692d9684e9117458ec041ed7b5b010, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17230,6 +17124,10 @@ PrefabInstance:
     - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_F
+      objectReference: {fileID: 0}
+    - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1887760544212571506, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_RootOrder
@@ -17561,6 +17459,10 @@ PrefabInstance:
     - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18077,6 +17979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Roof_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3359023877291494120, guid: e6c514bef75182c40b0b828053691e16, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18150,6 +18056,10 @@ PrefabInstance:
     - target: {fileID: 5312741663517434811, guid: 3b85058e1f9386c48a344fe30bcd3f54, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312741663517434811, guid: 3b85058e1f9386c48a344fe30bcd3f54, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18290,6 +18200,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18510,6 +18424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18649,6 +18567,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19082,6 +19004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19118,7 +19044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1812227296783308477, guid: c2013153b859e2a4f847ac17df1d4277, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.765747
+      value: 4.768
       objectReference: {fileID: 0}
     - target: {fileID: 1812227296783308477, guid: c2013153b859e2a4f847ac17df1d4277, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19392,68 +19318,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 402732beb54a0bf46804267308394c44, type: 3}
   m_PrefabInstance: {fileID: 1689092410}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1691721530
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 3217281583745434228, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_J
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7305903
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 35.351917
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
---- !u!4 &1691721531 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6589134629329377046, guid: 11267ad729851c94086f9c9799163f4f, type: 3}
-  m_PrefabInstance: {fileID: 1691721530}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1701141074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19583,6 +19447,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19747,6 +19615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_SC_Seonamsa_East_Stupa (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1261083715060322914, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1930799977622341848, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.99
@@ -19797,68 +19669,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1930799977622341848, guid: 1c4ae66a3698d1740bb77009ad61413f, type: 3}
   m_PrefabInstance: {fileID: 1761317386}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1764859402
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1240789571274058569, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_D
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.16531658
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7619715
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 38.501614
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
---- !u!4 &1764859403 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4212725670365112832, guid: b8ae775615412ad42a7296fd7e31652e, type: 3}
-  m_PrefabInstance: {fileID: 1764859402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1770211875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19871,6 +19681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bandaji_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1281494106797994364, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1910397833203362758, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
       propertyPath: m_LocalPosition.x
       value: -403.071
@@ -19881,7 +19695,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1910397833203362758, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 581.53
+      value: 574.6
       objectReference: {fileID: 0}
     - target: {fileID: 1910397833203362758, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19911,73 +19725,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3339500352507478138, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5723591227713757223, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7655166046108837705, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980400346977863492, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bafaec104cca0be4f93662b78e911e21, type: 3}
---- !u!1001 &1770537821
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.0681906
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.731
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 36.013
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.673656
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.6736559
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.21491326
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.21491322
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -35.388
-      objectReference: {fileID: 0}
-    - target: {fileID: 9201628503369198090, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_E
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
---- !u!4 &1770537822 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7770985263558325725, guid: 78853ee3c712c9f47b0063c85f49f6a4, type: 3}
-  m_PrefabInstance: {fileID: 1770537821}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1771505627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20033,6 +19801,10 @@ PrefabInstance:
     - target: {fileID: 8916170823618299130, guid: df62f0c40352713469d1ef6795204fce, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_E (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8916170823618299130, guid: df62f0c40352713469d1ef6795204fce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20099,6 +19871,10 @@ PrefabInstance:
     - target: {fileID: 4404863704090369044, guid: b769c013ba2a6fa4a94412e843b17df8, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_D (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404863704090369044, guid: b769c013ba2a6fa4a94412e843b17df8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20183,68 +19959,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5602217521993959850, guid: 4e305d52f278a6e4eba9be7b841eea29, type: 3}
   m_PrefabInstance: {fileID: 1778883239}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1779714259
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1351683283216046996, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_B
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.88
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7076154
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 37.29777
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
---- !u!4 &1779714260 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1467736419953517900, guid: f6dd0f82d6690714d882f0c5ce0d7410, type: 3}
-  m_PrefabInstance: {fileID: 1779714259}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1780205294
 GameObject:
@@ -20439,6 +20153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20448,68 +20166,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5763007579161465160, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
   m_PrefabInstance: {fileID: 1780385316}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1783301584
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1079009527528472308, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_A
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.0242157
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.753
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.953
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
---- !u!4 &1783301585 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2887160634321807993, guid: 73ae1277bde850b48a6ba39b6e455f5f, type: 3}
-  m_PrefabInstance: {fileID: 1783301584}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1786729818
 PrefabInstance:
@@ -21039,6 +20695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21060,6 +20720,10 @@ PrefabInstance:
     - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871258633689363325, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6245691589467307490, guid: 73cf6beb36d1649418cc7c0257102759, type: 3}
       propertyPath: m_RootOrder
@@ -21253,6 +20917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9047773712683584179, guid: fc4782740e17022408f8e39bff9b362a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21385,6 +21053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Sun_Gate_Gongpo_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8615034355462299606, guid: e9ee520745afcc949a19615ae45705f2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21484,6 +21156,10 @@ PrefabInstance:
     - target: {fileID: 7509214376552327491, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7509214376552327491, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7685039000581766935, guid: 3857bd0de09ddd74fab305906e5fdb3f, type: 3}
       propertyPath: m_RootOrder
@@ -21595,6 +21271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Step (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8874638419768238796, guid: 7c1a924f3323b9641ac17217b54bc7de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21670,68 +21350,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2087694336644120180, guid: 619957c3be3e71e4d92dab985ce30c70, type: 3}
   m_PrefabInstance: {fileID: 1913309041}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1924844893
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 1759141273215875542, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_O
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.3668222
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.6919823
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.0781
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
---- !u!4 &1924844894 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5635551938332141799, guid: b3eabb6fd06557e4083273f12e14ebf9, type: 3}
-  m_PrefabInstance: {fileID: 1924844893}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1927959407 stripped
 GameObject:
@@ -22048,68 +21666,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 615194277040217014, guid: f00c7892a94964440bdceaa416807712, type: 3}
   m_PrefabInstance: {fileID: 1933203098}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1933994468
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 5742798813032830068, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_F
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.09978008
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.752881
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 37.1511
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
---- !u!4 &1933994469 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9060300877708252802, guid: cb6f7f64ba1ef2245b9e95d9c0157c41, type: 3}
-  m_PrefabInstance: {fileID: 1933994468}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1938432550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22165,6 +21721,10 @@ PrefabInstance:
     - target: {fileID: 7250768661382429447, guid: eacc8d0e6db922543814729a47e76af1, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_E (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250768661382429447, guid: eacc8d0e6db922543814729a47e76af1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22241,6 +21801,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 615194277040217014, guid: f00c7892a94964440bdceaa416807712, type: 3}
   m_PrefabInstance: {fileID: 1949515926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1951014354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5800350169276503837, guid: 24fa55c4f1386e04ea2800527f88c4e1, type: 3}
+  m_PrefabInstance: {fileID: 171490108}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1959091065
 PrefabInstance:
@@ -22327,6 +21892,10 @@ PrefabInstance:
     - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_B (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093271445198258005, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4437924161205311524, guid: d88cdc4b06287664e9e42edcb538d4d5, type: 3}
       propertyPath: m_RootOrder
@@ -22850,6 +22419,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 46
       objectReference: {fileID: 0}
+    - target: {fileID: 3406344995468409661, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 33
+      objectReference: {fileID: 0}
     - target: {fileID: 7277802327414017196, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_ClearFlags
       value: 2
@@ -23154,6 +22727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Wall_G (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7491670159295102712, guid: 1418406289efef643b6d1542e4f91bfe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23270,6 +22847,10 @@ PrefabInstance:
     - target: {fileID: 1503755767358404463, guid: 50eaa5eb4aa54114899b55c2ab07038e, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Gate_Dori_B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503755767358404463, guid: 50eaa5eb4aa54114899b55c2ab07038e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5830341652060471938, guid: 50eaa5eb4aa54114899b55c2ab07038e, type: 3}
       propertyPath: m_RootOrder
@@ -23388,6 +22969,10 @@ PrefabInstance:
     - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23749,6 +23334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23769,7 +23358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3978686837545870939, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.32
+      value: 2.41
       objectReference: {fileID: 0}
     - target: {fileID: 3978686837545870939, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23777,7 +23366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3978686837545870939, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 36.87
+      value: 25.43
       objectReference: {fileID: 0}
     - target: {fileID: 3978686837545870939, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23811,6 +23400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_SC_Seonamsa_Daegagam_Stupa
       objectReference: {fileID: 0}
+    - target: {fileID: 4358624852370914529, guid: 47ef8cc466fec80418f9dfa8701b7f51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23832,6 +23425,10 @@ PrefabInstance:
     - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_F (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 677674744933326860, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1887760544212571506, guid: 895e5d5648a43704cb7f0500472528e5, type: 3}
       propertyPath: m_RootOrder
@@ -23898,6 +23495,10 @@ PrefabInstance:
     - target: {fileID: 5486159935082673203, guid: d2ed4cbfb345f6641a72152b7299dd09, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Kidan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486159935082673203, guid: d2ed4cbfb345f6641a72152b7299dd09, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7156355256600290441, guid: d2ed4cbfb345f6641a72152b7299dd09, type: 3}
       propertyPath: m_RootOrder
@@ -24260,6 +23861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24269,68 +23874,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3010499005914528078, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
   m_PrefabInstance: {fileID: 2097971267}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2100298526
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1103315093}
-    m_Modifications:
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.4824009
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.7718678
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 39.048653
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5672602906495617040, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-      propertyPath: m_Name
-      value: SM_K_Kirim_Dae_Stone_C
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
---- !u!4 &2100298527 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2881740436837082082, guid: d82a1ae8a3cb9114fadcc6e55388ffa4, type: 3}
-  m_PrefabInstance: {fileID: 2100298526}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2100456651
 PrefabInstance:
@@ -24388,6 +23931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24409,6 +23956,10 @@ PrefabInstance:
     - target: {fileID: 5479642876670534732, guid: b0a6d194760accb4588426a785a4cc7c, type: 3}
       propertyPath: m_Name
       value: SM_Sun_Dae_Kidan
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479642876670534732, guid: b0a6d194760accb4588426a785a4cc7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5748295225093553736, guid: b0a6d194760accb4588426a785a4cc7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -24531,13 +24082,42 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3479736019047492700, guid: 7a24cfc581d5c2940996157047401249, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105989809}
   m_SourcePrefab: {fileID: 100100000, guid: 7a24cfc581d5c2940996157047401249, type: 3}
 --- !u!4 &2105989807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4251769500997088998, guid: 7a24cfc581d5c2940996157047401249, type: 3}
   m_PrefabInstance: {fileID: 2105989806}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2105989808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3479736019047492700, guid: 7a24cfc581d5c2940996157047401249, type: 3}
+  m_PrefabInstance: {fileID: 2105989806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2105989809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105989808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.1449814, z: 0.70874023}
+  m_Center: {x: -0, y: 0.07249069, z: -0.14562988}
 --- !u!1001 &2124754654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24667,6 +24247,10 @@ PrefabInstance:
     - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Roof_D (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445042848275588181, guid: f009e5d5927de954b85e7b838a6e3fec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24906,6 +24490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_K_Kirim_Dae_Pillar_A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6360426747957816993, guid: 0dcf26b891a919b4d8471e404c29df0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24926,7 +24514,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5d13d0b991c18394a94b76c25c649fa3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8831482
+      value: -0.285
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d13d0b991c18394a94b76c25c649fa3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25078,3 +24666,4 @@ SceneRoots:
   - {fileID: 1007487154}
   - {fileID: 532384494}
   - {fileID: 2017815975}
+  - {fileID: 1107145256}

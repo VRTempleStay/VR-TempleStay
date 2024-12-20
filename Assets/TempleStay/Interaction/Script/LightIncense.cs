@@ -8,6 +8,8 @@ public class LightIncense : MonoBehaviour
     private float currentLightTime = 0;
     [SerializeField]
     private bool IsIncenseOn = false;
+    [SerializeField]
+    private ParticleSystem smoke; 
     
     // Start is called before the first frame update
     void Start()
@@ -32,15 +34,13 @@ public class LightIncense : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsIncenseOn)
-        {
 
-        }
     }
 
     private void IncenseOn()
     {
         IsIncenseOn = true;
         Debug.Log("IncenseOn");
+        smoke.Play();
     }
 }
